@@ -26,7 +26,7 @@ const fizzBuzz = (n) => {
         if(i % 3 === 0) { number += 'Fizz' }
         if(i % 5 === 0) { number += 'Buzz' }
         if (!number) { number = i }
-        result.push(number);
+        result.push(number.toString());
     }
     return result;
 };
