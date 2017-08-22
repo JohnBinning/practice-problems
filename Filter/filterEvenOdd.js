@@ -11,7 +11,7 @@
 // Should return: 160
 
 const findOutlier = (integers) => {
-  let evens = integers.filter(num => {
+  const evens = integers.filter(num => {
     return(num % 2 === 0);
   })
     return evens.length > 1 ? 
