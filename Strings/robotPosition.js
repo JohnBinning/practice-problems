@@ -11,7 +11,7 @@
 //  Input: "LL"
 //  Output: false
 
-const judge = function(moves) {
+const judge = (moves) => {
   let x = 0;
   let y = 0;
   moves.split('').forEach((move) => {
