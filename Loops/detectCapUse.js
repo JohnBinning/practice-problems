@@ -55,4 +55,7 @@ detectCapitalUse('Us'); // => true
 detectCapitalUse('US'); // => true
 detectCapitalUse('Eagle'); // => true
 detectCapitalUse('eagle'); // => true
+detectCapitalUse('e'); // => true
+detectCapitalUse('E'); // => true
+
 
