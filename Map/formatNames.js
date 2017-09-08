@@ -10,8 +10,8 @@ list([ {name: 'Bart'} ])
 list([])
 // returns ''
 
-function list(names){
-  var namesArr = [];
+const list = (names) => {
+  const namesArr = [];
   names.map((name) => {
     namesArr.push(name.name) 
   })

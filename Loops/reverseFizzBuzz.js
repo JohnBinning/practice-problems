@@ -5,7 +5,7 @@
 // For an array of numbers, Fizzes, Buzzes and FizzBuzzes, 
 // find the numbers whose multiples are being replaced by Fizz and Buzz. Return them as an array [n,m]
 
-function reverseFizzBuzz(ar) {
+const reverseFizzBuzz = (ar) => {
   let fizz;
   let buzz;
   for (let i = ar.length - 1; i > -1; i--){
@@ -19,7 +19,6 @@ function reverseFizzBuzz(ar) {
   
   return [fizz, buzz];
 }
-
 
 reverseFizzBuzz(["Fizz","Fizz","Fizz","Fizz","Fizz","FizzBuzz"]); // => [1, 6]
 reverseFizzBuzz([1,2,"Fizz",4,"Buzz"]); // => [3,5]);
