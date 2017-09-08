@@ -23,4 +23,5 @@ function reverseFizzBuzz(ar) {
 
 reverseFizzBuzz(["Fizz","Fizz","Fizz","Fizz","Fizz","FizzBuzz"]); // => [1, 6]
 reverseFizzBuzz([1,2,"Fizz",4,"Buzz"]); // => [3,5]);
-reverseFizzBuzz([1,"Fizz","Buzz","Fizz",5,"FizzBuzz"]) // =>  [2,3]
+reverseFizzBuzz([1,"Fizz","Buzz","Fizz",5,"FizzBuzz"]); // =>  [2,3]
+reverseFizzBuzz([1,"FizzBuzz",3,"FizzBuzz",5,"FizzBuzz"]); // => [2,2]
