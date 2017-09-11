@@ -1,4 +1,4 @@
-//Given an array of integers, every element appears twice except for one. Find that single one.
+// Given an array of integers, every element appears twice except for one. Find that single one.
 
 const singleNumber = (nums) => {
   let dups = nums.reduce((acc, num) => {

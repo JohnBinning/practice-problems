@@ -1,4 +1,4 @@
-//Find all the elements that appear twice in this array.
+// Find all the elements that appear twice in this array.
 
 // Input:
 // [4,3,2,7,8,2,3,1]
