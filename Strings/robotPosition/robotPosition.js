@@ -28,11 +28,7 @@ const judge = (moves) => {
       case 'L':
         x -= 1;
         break;
-    };
+    }
   });
-  if (!x && !y) {
-    return true;
-  } else {
-    return false;
-  }
+  return !x && !y;
 };
