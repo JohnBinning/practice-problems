@@ -5,7 +5,7 @@
 let input = ["Ryan", "Kieran", "Jason", "James"];
 
 const findSpies = (names) => {
-  return names.filter(name => {return name.length === 5})
+  return names.filter( (name) => name.length === 5);
 };
 
 findSpies(input);
