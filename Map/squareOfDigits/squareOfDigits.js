@@ -13,6 +13,6 @@ const squareDigits = num => {
 
 // or
 
-const squareDigits = num => parseInt(num.toString().split('').map(digit => digit * digit).join(''));
+const squareOfDigits = num => parseInt(num.toString().split('').map(digit => digit * digit).join(''));
 
 squareDigits(1234) // => 14916
