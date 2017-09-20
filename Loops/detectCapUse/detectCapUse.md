@@ -11,6 +11,7 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 
 #### Examples:
 
+```javascript
 detectCapitalUse('eagLe'); // => false
 detectCapitalUse('USaF'); // => false
 detectCapitalUse('uSAF'); // => false
@@ -21,3 +22,4 @@ detectCapitalUse('Eagle'); // => true
 detectCapitalUse('eagle'); // => true
 detectCapitalUse('e'); // => true
 detectCapitalUse('E'); // => true
+```

@@ -15,6 +15,8 @@ Output: 10
 
 #### More Examples/Tests:
 
+```javascript
 singleNonDuplicate([1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6]);  // => 4
 singleNonDuplicate([1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]);  // => 1
 singleNonDuplicate([1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6]);  // => 6
+```
