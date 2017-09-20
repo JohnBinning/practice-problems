@@ -4,7 +4,7 @@
 // (both uppercase and lowercase) and numeric digits.
 
 const duplicateCount = (text) => {
-  let dups = text.toLowerCase().split('').reduce((acc, num) => {
+    let dups = text.toLowerCase().split('').reduce((acc, num) => {
         acc[num] ? acc[num] += 1 : acc[num] = 1;
         return acc;
     },{});
