@@ -9,7 +9,7 @@ const getConsectiveItems = (items, key) => {
       acc.current = 0;
     }
     return acc;
-  },{ current: 0, total: 0});
+  },{ current: 0, total: 0 });
   return answer.total;
 }
 
