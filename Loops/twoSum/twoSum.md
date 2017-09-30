@@ -7,9 +7,9 @@ You may assume that each input would have exactly one solution, and you may not 
 
 #### Example:
 
+```javascript
 const nums = [2, 7, 11, 15];
 const target = 17;
 
-twoSum(nums, target);
-
-// => [0, 3]
+twoSum(nums, target); // => [0, 3]
+```

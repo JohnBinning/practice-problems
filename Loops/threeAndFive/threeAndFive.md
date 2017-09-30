@@ -8,5 +8,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 
 #### Examples:
 
+```javascript
 threeAndFive(10) => 23
 threeAndFive(17) => 60
+```
