@@ -25,6 +25,8 @@ Note that no matter what ingredients are passed, our taco will always have a she
 
 #### Examples/Tests:
 
+```javascript
 Test.assertDeepEquals(tacofy("ggg"), ['shell', 'guacamole', 'guacamole', 'guacamole', 'shell'])
 Test.assertDeepEquals(tacofy("ogl"),['shell', 'beef', 'guacamole', 'lettuce', 'shell'])
 Test.assertDeepEquals(tacofy("ydjkpwqrzto"), ['shell', 'tomato', 'beef', 'shell'])
+```
