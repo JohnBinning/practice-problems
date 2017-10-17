@@ -24,8 +24,7 @@ Test.assertSimilar(fillWater(buckets),answer);
 
 buckets = ["robber-Awaterwaterwaterwaterwa","robber-123waterwaterwaterwater",
 answer = "robber-xyzwaterwaterwaterwater","stone","grass","tortoise","","62 litres"]
-Test.assertSimilar(fillWater(buckets),answer)
+Test.assertSimilar(fillWater(buckets),answer);
 
-Test.assertSimilar(fillWater([]),["0 litre"])
-
+Test.assertSimilar(fillWater([]),["0 litre"]);
 ```
