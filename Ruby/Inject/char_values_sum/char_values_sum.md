@@ -18,4 +18,4 @@ The input will always be in lowercase and never be empty.
   Test.assert_equals(words_to_marks("family"), 66)
   Test.assert_equals(words_to_marks("selfness"), 99)
   Test.assert_equals(words_to_marks("knowledge"), 96)
-  ```
+```
