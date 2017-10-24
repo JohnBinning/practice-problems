@@ -2,13 +2,13 @@
 
 Uncle Tom the farmer needs to decide what vegetable he’ll grow this year. Since last year he barely covered costs due to a sudden fall in price for his cucumber, this year he has decided to check which vegetables prices had fallen the most during the previous years. Can you help Uncle Tom quantify the falls in price for each vegetable?
 
-The fall in price from a given year will be judged by all subsequent years, for example
+The fall in price from a given year will be judged by all subsequent years, for example:
 
 ```javascript
-[10, 1, 20, 14, 8 ]
+[ 10, 1, 20, 14, 6, 50, 38 ]
 ```
 
-will return 12 due to the drop from 20 to 8
+will return 14 due to the drop from 20 to 6
 
 ### Examples:
 
