@@ -5,7 +5,7 @@ containing integers. The array is either entirely comprised of odd integers
 or entirely comprised of even integers except for a single integer N. 
 Write a method that takes the array as an argument and returns N.
 
-For example:
+### Examples:
 
 [2, 4, 0, 100, 4, 11, 2602, 36]
 
