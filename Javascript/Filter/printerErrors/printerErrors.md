@@ -14,8 +14,8 @@ The string has a length greater or equal to one and contains only letters from a
 
 ```javascript
 s="aaabbbbhaijjjm"
-error_printer(s) // => "0/14"
+error_printer(s); // => "0/14"
 
 s="aaaxbbbbyyhwawiwjjjwwm"
-error_printer(s) // => "8/22"
+error_printer(s); // => "8/22"
 ```

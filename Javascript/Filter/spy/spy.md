@@ -5,4 +5,6 @@ Spies' codenames have 5 letters in them
 
 #### Example:
 
-Input = ["Ryan", "Kieran", "Jason", "James"] => ["Jason", "James"]
+```javascript
+findSpies(["Ryan", "Kieran", "Jason", "James"]); // => ["Jason", "James"]
+```
