@@ -5,5 +5,5 @@ end
 # or
 
 def find_dup(arr)
-  arr.detect {|e| arr.count(e) > 1}
+  arr.detect { |e| arr.count(e) > 1 }
 end
