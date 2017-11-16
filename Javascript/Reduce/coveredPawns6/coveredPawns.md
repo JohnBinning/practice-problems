@@ -6,7 +6,7 @@ Please remember that a pawn attack(and defend as well) only the 2 square on the 
 
 This is how the chess board coordinates are defined:
 
-![Image](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjljNib-cPXAhVLlVQKHe6nCycQjRwIBw&url=http%3A%2F%2Fwww.chess-poster.com%2Fenglish%2Flearn_chess%2Fpieces%2Fthe_pieces.htm&psig=AOvVaw1wgjxSfIS0FHlXWguNTNpO&ust=1510950985764921)
+![Image](http://4.bp.blogspot.com/-q1V7fUj_dPg/UCSi5RJWkrI/AAAAAAAAAFw/9maalysCBnE/s1600/ChessBoard2.jpg)
 
 ### Examples:
 
