@@ -28,8 +28,8 @@ const getTimeDiff = (startDate: Date, endDate: Date) => {
   };
 };
 
-const date1 = new Date(2000, 0, 1, 9, 0); // 9:00 AM
-const date2 = new Date(2003, 0, 4, 17, 5); // 5:00 PM
+const date1 = new Date(2000, 0, 1, 9, 0);
+const date2 = new Date(2003, 0, 4, 17, 5);
 getTimeDiff(date1, date2); // => {
 //   years: 3, 
 //   days: 4,
