@@ -1,5 +1,5 @@
 const isPrime = (num) => {
-  if(num < 2) return false;
+  if (num < 2) return false;
   const factors=[];
 	let currentFactor = 2;
 
@@ -13,4 +13,33 @@ const isPrime = (num) => {
 		}
 	}
 	return factors.length === 1;
+}
+
+
+// alternatively 
+
+const isPrime = (num) => {
+	let currentComp = 2;
+	while (currentComp < num) {
+		if (num % currentComp === 0) {
+				return currentComp === num;
+		} else {
+				currentComp += 1;
+		}
+	}
+	return true;
+}
+
+// added efficiency
+
+const isPrime = (num) => {
+	let currentComp = 2;
+	while (currentComp < Math.floor(Math.sqrt(num))) {
+		if (num % currentComp === 0) {
+				return false;
+		} else {
+				currentComp += 1;
+		}
+	}
+	return true;
 }
