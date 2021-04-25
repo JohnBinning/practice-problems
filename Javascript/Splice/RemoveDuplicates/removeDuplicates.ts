@@ -1,5 +1,5 @@
 function removeDuplicates(nums: number[]): number {
-  for (let i = 1; i < nums.length; i++) {
+  for (let i = 2; i < nums.length; i++) {
       while (nums[i] === nums[i - 1] && nums[i] === nums[i - 2]) {
           nums.splice(i, 1);
       }
@@ -9,6 +9,7 @@ function removeDuplicates(nums: number[]): number {
 
 /*
 ** This prompt called for bad practice, but I solved the problem so I'm going to post the solution.
+
 Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
 
 Do not allocate extra space for another array; you must do this by modifying the input array in-place with O(1) extra memory.
