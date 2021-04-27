@@ -18,7 +18,7 @@ type ListNode = {
 function deleteDuplicates(head: ListNode | null): ListNode | null {
   let current = head;
   while (current) {
-      let next = current.next
+      let next = current.next;
       while (current.val === next?.val) {
           next = next.next;
       }
