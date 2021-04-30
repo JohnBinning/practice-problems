@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
+const singleNumber = (nums) => {
   const numMap = {};
   for (let i = 0; i < nums.length; i++) {
       if (numMap[nums[i]] === 2) {
